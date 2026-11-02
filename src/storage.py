@@ -53,3 +53,5 @@ class DatasetStorage:
         """Clear all data and reset the ID counter."""
         self._store.clear()
         self._counter = 0
+
+storage = DatasetStorage()
